@@ -1,0 +1,2 @@
+import e from"react";import t from"react-dom";class l extends e.Component{render(){/*#__PURE__*/return e.createElement("div",null,/*#__PURE__*/e.createElement("h1",null,"Hello, World!"),/*#__PURE__*/e.createElement("p",null,/*#__PURE__*/e.createElement("small",null,"Rendered with React")))}}t.createRoot(document.getElementById("root")).render(/*#__PURE__*/e.createElement(l,null));
+//# sourceMappingURL=foo.modern.js.map
