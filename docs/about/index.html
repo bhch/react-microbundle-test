@@ -2,13 +2,13 @@
 <html>
 <head>
     <title>Test page</title>
-    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ 'static/style.css' | relative_url }}">
 </head>
 <body>
 
     <h1>About page</h1>
 
-    <a href="/">/</a>
+    <a href="{{ '/' | relative_url }}">/</a>
 
 </body>
 </html>
